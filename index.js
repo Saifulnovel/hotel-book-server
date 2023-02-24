@@ -49,7 +49,7 @@ async function run() {
       })
       console.log(token);
       // res.status(400)
-      res.send(result, token)
+      res.send({ result, token });
     })
 
 
